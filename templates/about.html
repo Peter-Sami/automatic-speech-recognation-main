@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - AudioTranslate</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">AudioTranslate</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/convert">Convert & Translate</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="text-center">
+            <h1 class="display-4">About Us</h1>
+            <p class="lead">Welcome to AudioTranslate!</p>
+            <p>We specialize in converting audio recordings into text and translating them into multiple languages. Our mission is to make communication seamless and accessible for everyone.</p>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <h2>Our Mission</h2>
+                <p>At AudioTranslate, we believe in the power of communication. We strive to break down language barriers and ensure that everyone can express their thoughts and ideas, regardless of their language background.</p>
+            </div>
+            <div class="col-md-6">
+                <h2>Our Vision</h2>
+                <p>Our vision is to become a leading platform for audio transcription and translation, providing high-quality services that cater to the diverse needs of our users.</p>
+            </div>
+        </div>
+
+        <div class="mt-5 text-center">
+            <h3>Join Us on Our Journey</h3>
+            <p>We invite you to explore our services and be a part of our community. Together, we can make communication easier for everyone.</p>
+            <a href="/convert" class="btn btn-primary">Get Started</a>
+        </div>
+    </div>
+
+    <footer class="bg-light text-center py-4 mt-5">
+        <p>&copy; 2024 AudioTranslate. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

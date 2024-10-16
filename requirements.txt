@@ -1,0 +1,15 @@
+Flask==3.0.3
+transformers==4.45.1
+torch==2.4.0
+soundfile==0.12.1
+tokenizers==0.20.1
+huggingface-hub==0.25.2
+numpy==1.24.4  # Ensure it matches your version of PyTorch
+tqdm==4.66.5
+requests==2.32.3
+safetensors==0.4.5
+urllib3==2.2.3
+fsspec==2024.9.0
+certifi==2024.8.30
+torchaudio==2.4.0
+gunicorn==20.1.0
