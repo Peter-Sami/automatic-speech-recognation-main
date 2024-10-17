@@ -12,6 +12,11 @@ os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 asr_pipeline = pipeline("automatic-speech-recognition", model="Messam174/wav2vec2-large-xls-r-300m-en")
 translation_pipeline = pipeline("text2text-generation", model="Messam174/mbart-large-50-many-to-many-mmt")
 
+# Health check endpoint
+@app.route('/health')
+def health():
+    return jsonify({"status": "healthy"}), 200
+
 @app.route('/')
 def home():
     return render_template('about.html')
@@ -52,4 +57,3 @@ def translate():
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=80)
-
