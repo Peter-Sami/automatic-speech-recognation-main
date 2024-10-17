@@ -1,4 +1,4 @@
-﻿asttokens==2.4.1
+asttokens==2.4.1
 blinker==1.8.2
 certifi==2024.8.30
 cffi==1.17.1
@@ -24,12 +24,12 @@ jupyter_core==5.5.0
 MarkupSafe==3.0.1
 matplotlib-inline==0.1.6
 mkl-service==2.4.0
-mkl_fft @ file:///C:/b/abs_f55mv94vyg/croot/mkl_fft_1725370278455/work
-mkl_random @ file:///C:/b/abs_21ydbzdu8d/croot/mkl_random_1725370276095/work
+mkl_fft
+mkl_random
 mpmath==1.3.0
 nest-asyncio==1.5.8
 networkx==3.4.1
-numpy @ file:///C:/Users/dev-admin/mkl/numpy_and_numpy_base_1682982345978/work
+numpy
 packaging==23.2
 parso==0.8.3
 prompt-toolkit==3.0.43
